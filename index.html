@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zdrowy Kręgosłup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Ćwiczenia na kręgosłup</h1>
+    <div class="mainwrapper">
+      <div class="leftwrapper">
+        <div class="todolist">
+          <h4>To-Do Lista: <img src="icon.png" /></h4>
+          <div class="row">
+            <input type="text" id="input-box" placeholder="Dodaj zadanie" />
+            <button class="button-list" onclick="addTask()">Dodaj</button>
+          </div>
+          <ul id="list-container"></ul>
+        </div>
+      </div>
+      <div class="rightwrapper">
+        <div class="titlepicture">
+          <img src="wspinaczka-tytulowe.jpg" width="330" alt="Title picture" />
+          <h4>Naciśnij na zdjęcie po twoją motywację!</h4>
+        </div>
+        <div id="challenge">
+          <img
+            src="questionmark.png"
+            alt="wylosuj challenge"
+            onclick="challengeModal()"
+          />
+
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <p class="wylosowanyChallenge" id="challengeText">
+                Twój challenge
+              </p>
+              <button class="btn-close" onclick="closeModal()">Zrobione</button>
+            </div>
+          </div>
+          <h4 style="margin-top: 130px">Wylosuj dla siebie challenge!</h4>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
