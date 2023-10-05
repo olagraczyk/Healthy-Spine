@@ -100,3 +100,17 @@ function showTasks(): void {
 }
 
 showTasks();
+
+/////////////////////////
+//Motivation playlist showing after clicking on the title picture.
+
+//array of playlist links
+const playlistLinks: string[] = [
+  "https://youtu.be/7BdAKfsjZ6U?si=yT6zTLFaJkGYFgIR",
+  "https://www.youtube.com/watch?v=gGOpElxqlQw",
+  "https://www.youtube.com/live/A7ns0sRLXDc?si=ql1s2E62ZWaVp77R",
+  "https://youtube.com/playlist?list=PLlYKDqBVDxX2m_ZPY2hJbN3EXiDUxuQpk&si=wOxAFt7tk8dllBY1",
+  "https://youtube.com/playlist?list=PLVRMW2AX3_4-ya9wfeRPE1IPUfYpwBTmT&si=mMIfsqWyIjEUwV5Q",
+  "https://www.youtube.com/watch?v=2DiP0mMeaT8&list=RDEMu1xWH1tb60B92F4R9UVNoA&start_radio=1",
+  "https://www.youtube.com/watch?v=5Iwy_xeJi7c&list=PLGWRY4CXixYw7vv9YHribRQJUPJCYdjst",
+];
