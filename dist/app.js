@@ -8,6 +8,9 @@ function losujChallenge() {
         "3 razy wiszenie na drążku po minutę",
         "3 razy po 20 brazylijskich przysiadów",
         "2 razy deska po minutę",
+        "2 minuty pracy nad oddechem w pochyle",
+        "Po 10 wykroków na nogę",
+        "Zwiększanie mobilności tułowia poprzez spokojne skręty przez 1 minutę",
     ];
     const randomIndex = Math.floor(Math.random() * challenges.length);
     const selectedChallenge = challenges[randomIndex];
